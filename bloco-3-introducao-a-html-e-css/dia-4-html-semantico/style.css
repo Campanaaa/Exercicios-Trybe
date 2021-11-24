@@ -1,3 +1,24 @@
+h1{
+    margin: 0;
+    text-align: left;
+    padding: 20px;
+    background-color:chocolate;
+}
+header nav{
+    padding: 2px;
+    background-color:gold;
+    border-top:2px solid black ;
+}
+
+header nav a{
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+
+
+
 table, td, caption{
     border: 1px solid black;
 }
