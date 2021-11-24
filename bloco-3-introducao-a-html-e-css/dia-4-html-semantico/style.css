@@ -1,0 +1,7 @@
+table, td, caption{
+    border: 1px solid black;
+}
+
+caption{
+    color: blue;
+}
