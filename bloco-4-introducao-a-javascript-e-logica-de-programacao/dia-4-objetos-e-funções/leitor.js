@@ -25,3 +25,8 @@ let harry = {
 };
 
 leitor.livrosFavoritos.push(harry);
+
+//exerciocio 8
+let numeroLivros = leitor.livrosFavoritos.length;
+
+console.log(leitor.nome + ' tem  ' + numeroLivros + ' livros favoritos');
