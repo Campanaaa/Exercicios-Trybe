@@ -14,6 +14,13 @@ info.recorrente = 'Sim';
 //console.log(info);
 
 //exercicio 3
+
+// for (keys in info){
+//     console.log(keys);
+// }
+
+//exercicio 4
+
 for (keys in info){
-    console.log(keys);
+    console.log(info[keys]);
 }
