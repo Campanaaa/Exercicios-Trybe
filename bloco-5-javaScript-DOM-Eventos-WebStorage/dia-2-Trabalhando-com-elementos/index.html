@@ -92,6 +92,22 @@
         }
         adicionaParagrafoSectionCenter()
 
+        function adicionaSectionLeft() {
+            let father = document.querySelector('main');
+            let child = document.createElement('section');
+            child.className = 'left-content'
+            father.appendChild(child);
+        }
+        adicionaSectionLeft()
+
+        function adicionaSectionRight() {
+            let father = document.querySelector('main');
+            let child = document.createElement('section');
+            child.className = 'right-content'
+            father.appendChild(child);
+        }
+        adicionaSectionRight()
+
         
     </script>
 </body>
