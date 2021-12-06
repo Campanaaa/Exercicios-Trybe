@@ -64,6 +64,15 @@
             father.appendChild(child);            
         }
         adicionaH1('Exercício 5.2 - JavaScript DOM');
+
+        function adicionaTagMain() {
+            let father = document.querySelector('body');
+            let child = document.createElement('main');
+            child.className = 'main-content';
+            father.appendChild(child);
+
+        }
+        adicionaTagMain();
     </script>
   </body>
 </html>
