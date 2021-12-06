@@ -117,7 +117,22 @@
         }
         adicionaImgSectionLeft();
 
-        
+        function criaListaSectionRight() {
+            let father = document.querySelector('.right-content');
+            let unorderedList = document.createElement('ul');
+            father.appendChild(unorderedList);
+            let writtenNumbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove'];
+            
+            for (let i = 0; i < writtenNumbers.length; i += 1) {
+                let blankList = document.querySelector('ul');
+                let createItem = document.createElement('li');
+
+                createItem.innerText = writtenNumbers[i];
+                blankList.appendChild(createItem);
+            }
+
+        }
+        criaListaSectionRight();
     </script>
 </body>
 
