@@ -108,6 +108,15 @@
         }
         adicionaSectionRight()
 
+        function adicionaImgSectionLeft() {
+            let father = document.querySelector('.left-content');
+            let child = document.createElement('img');
+            child.src = 'https://picsum.photos/200';
+            child.className = 'small-image';
+            father.appendChild(child);
+        }
+        adicionaImgSectionLeft();
+
         
     </script>
 </body>
