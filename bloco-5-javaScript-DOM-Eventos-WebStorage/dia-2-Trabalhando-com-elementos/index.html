@@ -73,6 +73,14 @@
 
         }
         adicionaTagMain();
+
+        function adicionaSectionCenter() {
+            let father = document.querySelector('main');
+            let child = document.createElement('section');
+            child.className = 'center-content';
+            father.appendChild(child);
+        }
+        adicionaSectionCenter();
     </script>
   </body>
 </html>
